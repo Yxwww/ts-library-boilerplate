@@ -1,0 +1,17 @@
+{
+  "name": "ts-library-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npm run build_types && npm run build_esm",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.186",
+    "@swc/jest": "^0.2.21",
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0"
+  }
+}
